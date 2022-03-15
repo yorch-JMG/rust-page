@@ -11,12 +11,12 @@ export const MainHero = () => {
 				</h3>
 			</div>
 			<div className='flex flex-col'>
-				<button className='bg-yellow-400 py-6 px-7 text-3xl mr-7 rounded-md'>
+				<button className='bg-yellow-400 py-6 px-7 text-2xl mr-7 rounded-md'>
 					<p className='px-10 font-bold'>
 						GET STARTED
 					</p>
 				</button>
-				<a href="#" className='text-center pt-4 text-3xl underline text-blue-500'>Version 1.59.0</a>
+				<a href="#" className='text-center pt-4 text-2xl underline text-blue-500'>Version 1.59.0</a>
 			</div>
 		</div>
 	)
