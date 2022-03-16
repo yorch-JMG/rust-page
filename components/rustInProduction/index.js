@@ -1,3 +1,6 @@
+import {RustInProductionInfo} from './rustInProductionInfo';
+import {RustInProductionQuoteSection} from './rustInProductionQuoteSection'
+
 export const RustInProduction = () => {
   return (
     <div className="bg-white w-full h-fit">
@@ -8,7 +11,7 @@ export const RustInProduction = () => {
           </h1>
           <div className="h-3 w-2/6 bg-yellow-600 mt-1 pr-5" />
         </div>
-        <div className="pt-5">
+        <div className="pt-5 pb-14">
           <p className="text-2xl px-2 leading-10">
             Hundreds of companies around the world are using Rust in production
             today for fast, low-resource, cross-platform solutions. Software you
@@ -31,6 +34,7 @@ export const RustInProduction = () => {
             </b>
           </p>
         </div>
+				<RustInProductionQuoteSection RustInProductionInfo={RustInProductionInfo} />
       </div>
     </div>
   );
