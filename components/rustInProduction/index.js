@@ -9,7 +9,7 @@ export const RustInProduction = () => {
           <h1 className="text-black text-4xl font-extrabold pt-9">
             Rust in production
           </h1>
-          <div className="h-3 w-2/6 bg-yellow-600 mt-1 pr-5" />
+          <div className="h-3 w-2/6 bg-yellow-400 mt-1 pr-5" />
         </div>
         <div className="pt-5 pb-14">
           <p className="text-2xl px-2 leading-10">

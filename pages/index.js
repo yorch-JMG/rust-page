@@ -4,6 +4,7 @@ import { WhyRust } from '../components/whyRust'
 import { BuildItInRust } from '../components/buildItInRust'
 import { RustInProduction } from '../components/rustInProduction'
 import { GetInvolved } from '../components/getInvolved'
+import { Thanks } from '../components/thanks'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<BuildItInRust />
 			<RustInProduction />
 			<GetInvolved />
+			<Thanks />
 		</>
   )
 }

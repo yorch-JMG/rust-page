@@ -49,11 +49,11 @@ export const Header = () => {
           <button
             id="dropdownButton"
             data-dropdown-toggle="dropdown"
-            class="text-black bg-white hover:border-slate-300 font-medium flex items-center border rounded-md border-black pl-2 mr-5"
+            className="text-black bg-white hover:border-slate-300 font-medium flex items-center border rounded-md border-black pl-2 mr-5"
             type="button">
             English (en-US){' '}
             <svg
-              class="ml-2 w-4 h-4"
+              className="ml-2 w-4 h-4"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -68,36 +68,8 @@ export const Header = () => {
 
           <div
             id="dropdown"
-            class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-            <ul class="py-1" aria-labelledby="dropdownButton">
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-                  Dashboard
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-                  Settings
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-                  Earnings
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-                  Sign out
-                </a>
-              </li>
+            className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
+            <ul className="py-1" aria-labelledby="dropdownButton">
             </ul>
           </div>
         </div>

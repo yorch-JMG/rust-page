@@ -27,7 +27,7 @@ export const BuildItInRust = () => {
                 src={buildItInRustObject.imageURL}
                 height={100}
                 width={100}
-                loading="eager"
+                loading="lazy"
               />
               <h2 className="text-white text-center font-bold text-3xl pt-3">
                 {buildItInRustObject.name}

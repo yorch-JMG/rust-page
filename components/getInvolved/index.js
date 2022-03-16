@@ -4,7 +4,7 @@ export const GetInvolved = () => {
       <div className="max-w-6xl mx-auto">
         <div>
           <h1 className="text-white text-4xl font-extrabold pt-9">Get involved</h1>
-          <div className="h-3 w-1/6 bg-blue-900 mt-1 pr-5" />
+          <div className="h-3 w-1/4 bg-blue-900 mt-1 pr-5" />
         </div>
         <div className="flex pt-5 space-x-6">
           <div className="w-1/2">
