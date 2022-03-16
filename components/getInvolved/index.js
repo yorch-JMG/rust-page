@@ -6,7 +6,7 @@ export const GetInvolved = () => {
           <h1 className="text-white text-4xl font-extrabold pt-9">Get involved</h1>
           <div className="h-3 w-1/6 bg-blue-900 mt-1 pr-5" />
         </div>
-        <div className="flex pt-5">
+        <div className="flex pt-5 space-x-6">
           <div className="w-1/2">
             <h2 className="text-2xl text-white font-bold">Read Rust</h2>
             <p className="text-lg text-white py-5">
