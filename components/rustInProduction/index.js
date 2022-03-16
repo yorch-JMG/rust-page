@@ -1,5 +1,5 @@
 import {RustInProductionInfo} from './rustInProductionInfo';
-import {RustInProductionQuoteSection} from './rustInProductionQuoteSection'
+import {RustInProductionQuoteSection} from './rustInProductionQuoteSection';
 
 export const RustInProduction = () => {
   return (
@@ -34,7 +34,12 @@ export const RustInProduction = () => {
             </b>
           </p>
         </div>
-				<RustInProductionQuoteSection RustInProductionInfo={RustInProductionInfo} />
+        <RustInProductionQuoteSection
+          RustInProductionInfo={RustInProductionInfo}
+        />
+        <button className="w-full bg-yellow-400 rounded-sm">
+          <p className='py-2 font-semibold uppercase text-sm'>Learn more</p>
+        </button>
       </div>
     </div>
   );
