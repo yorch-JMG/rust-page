@@ -3,7 +3,7 @@ import {RustInProductionQuoteSection} from './rustInProductionQuoteSection';
 
 export const RustInProduction = () => {
   return (
-    <div className="bg-white w-full h-fit">
+    <div className="bg-white w-full h-fit pb-16">
       <div className="max-w-6xl mx-auto">
         <div>
           <h1 className="text-black text-4xl font-extrabold pt-9">

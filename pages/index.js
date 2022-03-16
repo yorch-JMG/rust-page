@@ -3,6 +3,7 @@ import { MainHero } from '../components/mainHero'
 import { WhyRust } from '../components/whyRust'
 import { BuildItInRust } from '../components/buildItInRust'
 import { RustInProduction } from '../components/rustInProduction'
+import { GetInvolved } from '../components/getInvolved'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 			<WhyRust />
 			<BuildItInRust />
 			<RustInProduction />
+			<GetInvolved />
 		</>
   )
 }
