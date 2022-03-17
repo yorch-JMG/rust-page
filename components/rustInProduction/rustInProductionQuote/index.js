@@ -3,7 +3,9 @@ import Image from 'next/image';
 export const RustInProductionQuote = ({index, rustInProductionObj}) => {
   if (index % 2) {
     return (
-      <div key={index+1} className="w-full flex flex-row-reverse items-center pt-7">
+      <div
+        key={index + 1}
+        className="w-full flex flex-col lg:flex-row-reverse items-center pt-7">
         <div className="text-2xl px-10 flex space-x-3">
           <div>
             <b>''</b>
@@ -20,13 +22,17 @@ export const RustInProductionQuote = ({index, rustInProductionObj}) => {
           </div>
         </div>
         <div className="w-1/3 h-36 relative">
-          <Image src={rustInProductionObj.imageURL} layout="fill" loading='lazy'/>
+          <Image
+            src={rustInProductionObj.imageURL}
+            layout="fill"
+            loading="lazy"
+          />
         </div>
       </div>
     );
   }
   return (
-    <div key={index+1} className="w-full flex items-center pb-7">
+    <div key={index + 1} className="w-full flex flex-col lg:flex-row items-center pb-7">
       <div className="text-2xl px-10 flex space-x-3">
         <div>
           <b>''</b>
@@ -40,8 +46,12 @@ export const RustInProductionQuote = ({index, rustInProductionObj}) => {
           </div>
         </div>
       </div>
-      <div className="w-1/3 h-16 relative">
-        <Image src={rustInProductionObj.imageURL} layout="fill"  loading='lazy'/>
+      <div className="mx-auto py-8 lg:mx-0 w-1/3 h-16 relative">
+        <Image
+          src={rustInProductionObj.imageURL}
+          layout="fill"
+          loading="lazy"
+        />
       </div>
     </div>
   );

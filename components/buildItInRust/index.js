@@ -8,7 +8,7 @@ export const BuildItInRust = () => {
         <h1 className="text-white pl-2 lg:pl-0 text-3xl lg:text-4xl font-extrabold pt-9">
           Build it in Rust
         </h1>
-        <div className="h-3 w-1/4 bg-pink-700 mt-1 pr-6" />
+		<div className="h-3 w-1/2 lg:w-1/4 bg-pink-700 mt-1 pr-6" />
         <p className="text-white lg:text-lg pt-5 px-2">
           In 2018, the Rust community decided to improve the programming
           experience for a few distinct domains (see{' '}
@@ -22,7 +22,7 @@ export const BuildItInRust = () => {
           {BuildItInRustInfo.map(buildItInRustObject => (
             <div
               key={buildItInRustObject.name}
-              className="px-3 flex flex-col w-full lg:w-1/3 h-full pb-0 lg:pb-5">
+              className="px-3 flex flex-col w-full lg:w-1/3 h-full pb-10 lg:pb-5">
               <Image
                 src={buildItInRustObject.imageURL}
                 height={100}
@@ -32,7 +32,7 @@ export const BuildItInRust = () => {
               <h2 className="text-white text-center font-bold text-3xl pt-3">
                 {buildItInRustObject.name}
               </h2>
-              <p className="text-white text-lg py-5 h-1/2">
+						<p className="text-white lg:text-lg py-5 h-1/2">
                 {buildItInRustObject.desc}
               </p>
               <button className="text-white bg-pink-700 py-2 bottom-0 font-bold uppercase text-sm">

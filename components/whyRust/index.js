@@ -7,7 +7,7 @@ export const WhyRust = () => {
           <h1 className="text-white pl-2 lg:pl-0 text-3xl lg:text-4xl font-extrabold pt-9">
             Why Rust?
           </h1>
-          <div className="h-3 w-1/6 bg-purple-900 mt-1 pr-5" />
+		<div className="h-3 w-2/5 lg:w-1/6 bg-purple-900 mt-1 pr-5" />
         </div>
         <div className="pt-2">
           <WhyRustInfo />

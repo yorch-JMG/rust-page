@@ -6,13 +6,13 @@ export const RustInProduction = () => {
     <div className="bg-white w-full h-fit pb-16">
       <div className="max-w-6xl mx-auto">
         <div>
-          <h1 className="text-black text-4xl font-extrabold pt-9">
+		<h1 className="text-black text-3xl lg:text-4xl font-extrabold pt-9 pl-2 lg:pl-0">
             Rust in production
           </h1>
-          <div className="h-3 w-2/6 bg-yellow-400 mt-1 pr-5" />
+		<div className="h-3 w-2/3 lg:w-2/6 bg-yellow-400 mt-1 pr-5" />
         </div>
         <div className="pt-5 pb-14">
-          <p className="text-2xl px-2 leading-10">
+		<p className="text-xl lg:text-2xl px-2 leading-10">
             Hundreds of companies around the world are using Rust in production
             today for fast, low-resource, cross-platform solutions. Software you
             know and love, like{' '}
