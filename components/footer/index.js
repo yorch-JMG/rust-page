@@ -3,8 +3,8 @@ import Image from 'next/image';
 export const Footer = () => {
   return (
     <footer className="bg-gray-800 pt-7">
-      <div className="max-w-6xl mx-auto flex justify-between">
-        <div className="text-left w-1/3">
+      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between">
+        <div className="text-left w-full lg:w-1/3 pl-2 lg:pl-0 pb-5 lg:pb-0">
           <h2 className="text-white text-2xl font-bold pb-5">Get help!</h2>
           <ul className="text-yellow-400 text-lg space-y-3">
             <li>Documentation</li>
@@ -31,7 +31,7 @@ export const Footer = () => {
             </button>
           </ul>
         </div>
-        <div className="text-left w-1/3">
+        <div className="text-left w-full lg:w-1/3 pl-2 lg:pl-0 pb-5 lg:pb-0">
           <h2 className="text-white text-2xl font-bold pb-5">
             Terms and policies
           </h2>
@@ -44,7 +44,7 @@ export const Footer = () => {
             <li>All Policies</li>
           </ul>
         </div>
-        <div className="text-left w-1/3">
+        <div className="text-left w-full lg:w-1/3 pl-2 lg:pl-0 pb-5 lg:pb-0">
           <h2 className="text-white text-2xl font-bold pb-5">Social</h2>
           <div className="flex w-3/5 justify-between px-3">
             <Image
@@ -74,9 +74,14 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='text-center pt-12'>
-        <p className='text-white text-lg'>Maintained by the Rust Team. See a bug? <a className='text-yellow-400'>File an issue!</a></p>
-        <p className='text-white text-lg'>Looking for the <a className='text-yellow-400'>previous website</a>?</p>
+      <div className="text-center pt-12 pb-5 lg:pb-0">
+        <p className="text-white text-lg">
+          Maintained by the Rust Team. See a bug?{' '}
+          <a className="text-yellow-400">File an issue!</a>
+        </p>
+        <p className="text-white text-lg">
+          Looking for the <a className="text-yellow-400">previous website</a>?
+        </p>
       </div>
     </footer>
   );
