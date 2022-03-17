@@ -5,11 +5,11 @@ export const BuildItInRust = () => {
   return (
     <div className="bg-purple-800 w-full h-fit pb-16">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-white text-4xl font-extrabold pt-9">
+        <h1 className="text-white pl-2 lg:pl-0 text-3xl lg:text-4xl font-extrabold pt-9">
           Build it in Rust
         </h1>
         <div className="h-3 w-1/4 bg-pink-700 mt-1 pr-6" />
-        <p className="text-white text-lg pt-5 px-2">
+        <p className="text-white lg:text-lg pt-5 px-2">
           In 2018, the Rust community decided to improve the programming
           experience for a few distinct domains (see{' '}
           <a href="#" className="underline">
@@ -18,11 +18,11 @@ export const BuildItInRust = () => {
           ). For these, you can find many high-quality crates and some awesome
           guides on how to get started.
         </p>
-        <div className="flex justify-between pt-9 w-full h-96">
+        <div className="flex flex-col lg:flex-row justify-between pt-9 w-full h-fit lg:h-96">
           {BuildItInRustInfo.map(buildItInRustObject => (
             <div
               key={buildItInRustObject.name}
-              className="px-3 flex flex-col w-1/3 h-full">
+              className="px-3 flex flex-col w-full lg:w-1/3 h-full pb-0 lg:pb-5">
               <Image
                 src={buildItInRustObject.imageURL}
                 height={100}

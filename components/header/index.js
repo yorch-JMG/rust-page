@@ -34,7 +34,7 @@ export const Header = () => {
             width={80}
           />
         </a>
-        <div className="flex space-x-7 pl-3">
+        <div className="space-x-7 pl-3 hidden lg:flex lg:visible">
           <ul className="flex">
             {headerOptions.map(headerOption => {
               return (
@@ -65,12 +65,10 @@ export const Header = () => {
                 d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-
           <div
             id="dropdown"
             className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-            <ul className="py-1" aria-labelledby="dropdownButton">
-            </ul>
+            <ul className="py-1" aria-labelledby="dropdownButton"></ul>
           </div>
         </div>
       </div>
