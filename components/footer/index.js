@@ -46,7 +46,7 @@ export const Footer = () => {
         </div>
         <div className="text-left w-1/3">
           <h2 className="text-white text-2xl font-bold pb-5">Social</h2>
-          <div className="flex w-3/5 justify-between">
+          <div className="flex w-3/5 justify-between px-3">
             <Image
               src="https://www.rust-lang.org/static/images/twitter.svg"
               height={40}
@@ -73,8 +73,10 @@ export const Footer = () => {
             />
           </div>
         </div>
-        <p>Maintained by the Rust Team. See a bug? File an issue!</p>
-        <p>Looking for the previous website?</p>
+      </div>
+      <div className='text-center pt-12'>
+        <p className='text-white text-lg'>Maintained by the Rust Team. See a bug? <a className='text-yellow-400'>File an issue!</a></p>
+        <p className='text-white text-lg'>Looking for the <a className='text-yellow-400'>previous website</a>?</p>
       </div>
     </footer>
   );
