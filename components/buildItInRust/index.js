@@ -4,10 +4,10 @@ import {BuildItInRustInfo} from './buildItInRustInfo';
 export const BuildItInRust = () => {
   return (
     <div className="bg-purple-800 w-full h-fit pb-16">
-        <h1 className="text-white pl-2 lg:pl-0 text-3x md:text-4xl lg:text-4xl font-extrabold pt-9">
-          Build it in Rust
-        </h1>
-        <div className="h-3 w-1/2 lg:w-1/4 bg-pink-700 mt-1 pr-6" />
+      <h1 className="text-white pl-2 lg:pl-0 text-3x md:text-4xl lg:text-4xl font-extrabold pt-9">
+        Build it in Rust
+      </h1>
+      <div className="h-3 w-1/2 lg:w-1/4 bg-pink-700 mt-1 pr-6" />
       <div className="max-w-6xl mx-auto md:px-8">
         <p className="text-white md:text-2xl lg:text-lg pt-5 px-2">
           In 2018, the Rust community decided to improve the programming
@@ -35,7 +35,7 @@ export const BuildItInRust = () => {
               <p className="text-white md:text-2xl lg:text-lg py-5 h-1/2">
                 {buildItInRustObject.desc}
               </p>
-              <button className="text-white bg-pink-700 py-2 bottom-0 font-bold uppercase text-sm md:text-lg">	
+              <button className="text-white bg-pink-700 py-2 bottom-0 font-bold uppercase text-sm md:text-lg">
                 {buildItInRustObject.buttonText}
               </button>
             </div>
