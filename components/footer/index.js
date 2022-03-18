@@ -5,11 +5,13 @@ export const Footer = () => {
     <footer className="bg-gray-800 pt-7">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between">
         <div className="text-left w-full lg:w-1/3 pl-2 lg:pl-0 pb-5 lg:pb-0">
-          <h2 className="text-white text-2xl font-bold pb-5">Get help!</h2>
-          <ul className="text-yellow-400 text-lg space-y-3">
+          <h2 className="text-white text-xl lg:text-2xl font-bold pb-5">
+            Get help!
+          </h2>
+          <ul className="text-yellow-400 lg:text-lg space-y-3">
             <li>Documentation</li>
             <li>Rust Forge (Contributor Documentation)</li>
-            <li className="pb-5">Ask a Question on the User Forum</li>
+		<li className="lg:pb-5">Ask a Question on the User Forum</li>
             <button
               id="dropdownButton"
               data-dropdown-toggle="dropdown"
@@ -32,10 +34,10 @@ export const Footer = () => {
           </ul>
         </div>
         <div className="text-left w-full lg:w-1/3 pl-2 lg:pl-0 pb-5 lg:pb-0">
-          <h2 className="text-white text-2xl font-bold pb-5">
+          <h2 className="text-white text-xl lg:text-2xl font-bold pb-5">
             Terms and policies
           </h2>
-          <ul className="text-yellow-400 text-lg space-y-3">
+          <ul className="text-yellow-400 lg:text-lg space-y-3">
             <li>Code of Conduct</li>
             <li>Licenses</li>
             <li>Logo Policy and Media Guide</li>
@@ -45,8 +47,10 @@ export const Footer = () => {
           </ul>
         </div>
         <div className="text-left w-full lg:w-1/3 pl-2 lg:pl-0 pb-5 lg:pb-0">
-          <h2 className="text-white text-2xl font-bold pb-5">Social</h2>
-          <div className="flex w-3/5 justify-between px-3">
+          <h2 className="text-white text-xl lg:text-2xl font-bold pb-5">
+            Social
+          </h2>
+          <div className="flex w-2/3 lg:w-3/5 justify-between px-3">
             <Image
               src="https://www.rust-lang.org/static/images/twitter.svg"
               height={40}
@@ -75,11 +79,11 @@ export const Footer = () => {
         </div>
       </div>
       <div className="text-center pt-12 pb-5 lg:pb-0">
-        <p className="text-white text-lg">
+		<p className="text-white lg:text-lg">
           Maintained by the Rust Team. See a bug?{' '}
           <a className="text-yellow-400">File an issue!</a>
         </p>
-        <p className="text-white text-lg">
+		<p className="text-white lg:text-lg">
           Looking for the <a className="text-yellow-400">previous website</a>?
         </p>
       </div>

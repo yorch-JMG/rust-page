@@ -34,6 +34,11 @@ export const Header = () => {
             width={80}
           />
         </a>
+		<div class="space-y-2 visible lg:hidden">
+          <span class="block w-5 h-0.5 bg-gray-600"></span>
+          <span class="block w-8 h-0.5 bg-gray-600"></span>
+          <span class="block w-8 h-0.5 bg-gray-600"></span>
+        </div>
         <div className="space-x-7 pl-3 hidden lg:flex lg:visible">
           <ul className="flex">
             {headerOptions.map(headerOption => {
