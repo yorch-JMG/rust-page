@@ -5,7 +5,7 @@ export const RustInProductionQuote = ({index, rustInProductionObj}) => {
     return (
       <div
         key={index + 1}
-        className="w-full flex flex-col lg:flex-row-reverse items-center pt-7">
+			className="w-full flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center pt-7 md:pb-8 md:px-8">
         <div className="text-2xl px-10 flex space-x-3">
           <div>
             <b>''</b>
@@ -21,7 +21,7 @@ export const RustInProductionQuote = ({index, rustInProductionObj}) => {
             </div>
           </div>
         </div>
-        <div className="w-1/3 h-36 relative">
+        <div className="w-2/3 h-36 relative">
           <Image
             src={rustInProductionObj.imageURL}
             layout="fill"
@@ -32,8 +32,10 @@ export const RustInProductionQuote = ({index, rustInProductionObj}) => {
     );
   }
   return (
-    <div key={index + 1} className="w-full flex flex-col lg:flex-row items-center pb-7">
-      <div className="text-2xl px-10 flex space-x-3">
+    <div
+      key={index + 1}
+		className="w-full flex flex-col md:flex-row lg:flex-row items-center pb-7 md:px-8">
+      <div className="text-2xl px-10 flex space-x-3 md:pb-8">
         <div>
           <b>''</b>
         </div>

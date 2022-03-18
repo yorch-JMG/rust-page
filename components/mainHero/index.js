@@ -1,9 +1,9 @@
 export const MainHero = () => {
   return (
-    <div className="max-w-6xl w-full flex flex-col lg:flex-row justify-between py-12 px-2 mx-auto mb-10 lg:mb-16">
+		<div className="max-w-6xl w-full flex flex-col md:flex-row lg:flex-row justify-between py-12 md:py-8 px-2 md:px-8 mx-auto mb-10 lg:mb-16">
       <div>
-        <h1 className="font-extrabold text-5xl lg:text-7xl">RUST</h1>
-        <h3 className="pt-7 pb-5 lg:pb-0 text-xl lg:text-4xl">
+		<h1 className="font-extrabold text-5xl lg:text-7xl">RUST</h1>
+		<h3 className="pt-7 pb-5 lg:pb-0 text-xl md:text-2xl lg:text-4xl">
           A language empowering everyone <br />
           to build reliable and efficient software.
         </h3>
